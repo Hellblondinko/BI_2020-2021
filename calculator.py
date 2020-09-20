@@ -17,3 +17,4 @@ elif c == 'div' and b!=0:
     print(a // b)
 elif c == '/' and b!=0:
     print(a / b)
+print ('Возвращайся скорей и давай считать!')
