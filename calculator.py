@@ -11,10 +11,10 @@ elif c == '*':
 elif c == 'pow':
     print(a ** b)
 elif b == 0:
-    print ('Деление на 0!')
+    print('Деление на 0!')
 
-elif c == 'div' and b!=0:
+elif c == 'div' and b !=0:
     print(a // b)
-elif c == '/' and b!=0:
+elif c == '/' and b !=0:
     print(a / b)
-print ('Возвращайся скорей и давай считать!')
+print('Возвращайся скорей и давай считать!')
