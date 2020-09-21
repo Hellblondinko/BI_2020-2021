@@ -30,7 +30,7 @@ Notic that:
      '....-': '4',  '.....': '5',  '-....': '6',
      '--...': '7',  '---..': '8',  '----.': '9'}
 
-    >>> ''', end = '')
+    >>> ''', end ='')
 msg = input(' ')
 out = []
 letter = []
@@ -41,5 +41,5 @@ for i in msg.split(' '):
     for k in range(len(letter[j])):
         out += mor.get(letter[j][k], '?')
     out += ' '
-print('\n      >>> Your msg is: ', end = '')
+print('\n      >>> Your msg is: ', end ='')
 print(''.join(out))
