@@ -18,6 +18,6 @@ with open("Translated_proteins.fasta", 'w') as aa_fa:
         max_aa = max(aa_seqs, key=len)
 
         # write new record
-        aa_record = SeqRecord(max_aa, id=dna_record.id, description="translated sequence")
+        aa_record = SeqRecord(max_aa, id=dna_record.id, description="translated_sequence")
         SeqIO.write(aa_record, aa_fa, 'fasta')
 
