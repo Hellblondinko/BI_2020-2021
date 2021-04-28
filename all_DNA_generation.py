@@ -6,7 +6,7 @@ def random_dna_sequence(length):
     for i in range(1, length+1):
         combinations = itertools.product(*itertools.repeat(nucleotides, i))
         for j in combinations:
-            print(''.join(j))
+            yield (''.join(j))
 
 
 
